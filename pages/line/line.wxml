@@ -1,0 +1,13 @@
+<view class="page">
+  <image src='/images/bg2.png' mode='scaleToFill' class='bg-img'> </image>
+  <view class='list'>
+    <view class='line-list'>
+    <view bindtap='choose' data-name='{{item.name}}'data-index="{{index}}" data-ischoosed='{{item.isChoosed}}' wx:key="line-{{item.name}}" wx:for="{{arr}}"  class="line-item {{item.isChoosed==1?'choosed':''}}  {{item.name.length>4?'line-item1':''}}" >{{item.name}}</view>
+    </view>
+  </view>
+
+  <button class='go go1'  bindgetuserinfo="getUserInfo" open-type="getUserInfo" wx:if="{{isSubmit==0}}">提交</button>
+  <button class='go'  wx:else bindtap='hasSubmit'>正在提交</button>
+  <!-- <button class='go go1'  bindtap='submit'>提交</button> -->
+  <button open-type="launchApp"  binderror="launchAppError" class='open-app' wx:if="{{flag}}">打开APP</button>
+</view>

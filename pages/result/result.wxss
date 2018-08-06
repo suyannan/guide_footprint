@@ -1,0 +1,326 @@
+.page {
+  font-size: 0;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+}
+
+.reward {
+  width: 508rpx;
+  height: 181rpx;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 45rpx;
+  left: 0;
+  right: 0;
+}
+
+.result-view {
+  position: absolute;
+  width: 100%;
+  top: 240rpx;
+  left: 0;
+}
+
+.text {
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 48rpx;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 80%;
+  margin: auto;
+}
+
+.num {
+  font-size: 50rpx;
+  color: #fffb80;
+}
+
+.name {
+  font-size: 30rpx;
+}
+
+.map {
+  width: 531rpx;
+  height: 461rpx;
+  /* width: 465rpx; */
+  display: block;
+  margin: auto;
+  position: absolute;
+   top: 409rpx; 
+  /* top:34.6%; */
+  left: 0;
+  right: 0;
+}
+
+.lines-text {
+  font-size: 22rpx;
+  line-height: 36rpx;
+  color: #fff;
+  width: 600rpx;
+  margin: auto;
+  position: absolute;
+  top: 72%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  min-height: 130rpx;
+}
+
+.code {
+  width: 93rpx;
+  height: 93rpx;
+  position: absolute;
+  left: 106rpx;
+  bottom: 81rpx;
+}
+
+ .convas {
+  position: fixed;
+  left: 0;
+  top: 9999999999999999999rpx;
+}   
+
+.btn {
+  font-size: 36rpx;
+  background: #fff;
+  color: #000;
+  position: fixed;
+  bottom: 50rpx;
+  right: 50rpx;
+}
+
+.contact {
+  font-size: 28rpx;
+  background: #fff;
+  color: #000;
+  position: fixed;
+  bottom: 50rpx;
+  right: 350rpx;
+}
+
+.head {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.save-share-view {
+  position: absolute;
+  bottom: 70rpx;
+  right: 111rpx;
+}
+
+.share-view, .save-view {
+  display: inline-block;
+  font-size: 22rpx;
+  line-height: 34rpx;
+  color: #fff;
+  text-align: center;
+}
+
+.share-view {
+  margin-right: 99rpx;
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  font-size: 22rpx;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+
+.icon-pic-share {
+  width: 40rpx;
+  height: 40rpx;
+  /* margin-bottom: 10rpx; */
+}
+
+.icon-pic-save {
+  width: 37rpx;
+  height: 37rpx;
+}
+
+.gold {
+  color: #fffb80;
+}
+.car{
+  width:293rpx;
+  height: 81rpx;
+  position: absolute;
+  bottom:40rpx;
+  left:80rpx;
+}
+
+.line1 {
+  position: absolute;
+  left: 240rpx;
+  top: 568rpx;
+  width: 49rpx;
+  height: 29rpx;
+}
+
+.line2 {
+  position: absolute;
+  left: 234rpx;
+  top: 580rpx;
+  width: 18rpx;
+  height: 55rpx;
+}
+
+.line3 {
+  position: absolute;
+  left: 240rpx;
+  top: 642rpx;
+  width: 24rpx;
+  height: 44rpx;
+}
+
+.line4 {
+  position: absolute;
+  left: 234rpx;
+  top: 618rpx;
+  width: 29rpx;
+  height: 42rpx;
+}
+
+.line5 {
+  position: absolute;
+  left: 240rpx;
+  top: 670rpx;
+  width: 23rpx;
+  height: 38rpx;
+}
+
+.line6 {
+  position: absolute;
+  left: 398rpx;
+  top: 780rpx;
+  width: 51rpx;
+  height: 40rpx;
+}
+
+.line7 {
+  position: absolute;
+  left: 332rpx;
+  top: 710rpx;
+  width: 28rpx;
+  height: 80rpx;
+}
+
+.line8 {
+  position: absolute;
+  left: 314rpx;
+  top: 710rpx;
+  width: 63rpx;
+  height: 67rpx;
+}
+
+.line9 {
+  position: absolute;
+  left: 250rpx;
+  top: 666rpx;
+  width: 92rpx;
+  height: 42rpx;
+}
+
+.line10 {
+  position: absolute;
+  left: 172rpx;
+  top: 595rpx;
+  width: 221rpx;
+  height: 139rpx;
+}
+
+.line11 {
+  position: absolute;
+  left: 350rpx;
+  top: 714rpx;
+  width: 43rpx;
+  height: 24rpx;
+}
+
+.line12 {
+  position: absolute;
+  left: 338rpx;
+  top: 706rpx;
+  width: 56rpx;
+  height: 25rpx;
+}
+
+.line13 {
+  position: absolute;
+  left: 314rpx;
+  top: 694rpx;
+  width: 14rpx;
+  height: 34rpx;
+}
+
+.line14 {
+  position: absolute;
+  left: 204rpx;
+  top: 502rpx;
+  width: 33rpx;
+  height: 47rpx;
+}
+
+.line15 {
+  position: absolute;
+  left: 240rpx;
+  top: 644rpx;
+  width: 64rpx;
+  height: 43rpx;
+}
+
+.line16 {
+  position: absolute;
+  left: 482rpx;
+  top: 598rpx;
+  width: 13rpx;
+  height: 36rpx;
+}
+
+.line17 {
+  position: absolute;
+  left: 354rpx;
+  top: 734rpx;
+  width: 29rpx;
+  height: 23rpx;
+}
+
+.line18 {
+  position: absolute;
+  left: 328rpx;
+  top: 634rpx;
+  width: 56rpx;
+  height: 34rpx;
+}
+
+.line19 {
+  position: absolute;
+  left: 424rpx;
+  top: 562rpx;
+  width: 45rpx;
+  height: 31rpx;
+}
+
+.line20 {
+  position: absolute;
+  left: 346rpx;
+  top: 584rpx;
+  width: 71rpx;
+  height: 26rpx;
+}

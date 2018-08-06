@@ -1,0 +1,48 @@
+<view class='page'>
+  <image src='/images/bg3.jpg' mode="scaleToFill" class='bg-img'></image>
+  <image src='/images/logo.png' class='reward' mode="aspectFill"></image>
+  <view class='result-view'>
+    <view class='text'>
+      <text class='name'>“{{nick}}”</text>在目前越野生涯中豁遍全国{{len}}条线路超越了
+      <text class='num'>{{percent}}</text>的Guide用户！ 特发此奖，以资鼓励
+    </view>
+        <!-- <view class='text'>
+      <text class='name'>“{{nick}}”</text>在目前越野生涯中豁遍
+
+    </view>
+    <view class='text'>
+      全国{{len}}条线路超越了
+      <text class='num'>{{percent}}</text>的Guide用户！
+    </view>
+    <view class='text'>
+      特发此奖，以资鼓励
+    </view> -->
+  </view>
+
+
+  <image src='/images/bg-map.png' class='map' mode='aspectFill' wx:if="{{names!=''}}"></image>
+    <image src='/images/zero.png' class='map' mode='aspectFill'  wx:else></image>
+  
+  <image src='{{item.linePath}}' mode="aspectFill" class='line{{index+1}}' wx:for="{{arr}}" wx:key="line-{{index+1}}" wx:if="{{item.isChoosed==1}}"></image>
+  <!-- <image src='/images/line1.png' mode="aspectFill" class='line1'></image> -->
+  <view class='lines-text' wx:if="{{names!==''}}">
+    <text>已豁过路线：</text> {{names}}
+  </view>
+   <image src='/images/car.png' class='car' mode='aspectFill'></image>
+  <image src='/images/ma.jpg' class='code' mode='aspectFill'></image>
+  <view class='save-share-view'>
+    <button class='share-view' bindtap='share' open-type='share'>
+      <image src='/images/share.png' mode="aspectFill" class='icon-pic-share'></image>
+      <view>分享</view>
+    </button>
+    <view class='save-view' bindtap='save'>
+      <image src='/images/save.png' mode="aspectFill" class='icon-pic-save'></image>
+      <view>保存</view>
+    </view>
+
+  </view>
+
+  <canvas canvas-id="myCanvas" style="width:{{windowWidth}}px;height:{{windowHeight}}px;" class='convas'></canvas>
+  <!-- <view class='btn' bindtap='save'>保存朋友圈</view>  -->
+  <!-- <button open-type="contact" class='contact'> 找朱莉要更多真实路书<image src='/images/code2.jpg' mode='aspectFill' class='head'></image></button> -->
+</view>

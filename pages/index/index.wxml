@@ -1,0 +1,9 @@
+<view class="page">
+<image src='/images/bg1.png' mode='scaleToFill' class='bg-img'></image>
+<view class='worth-view'>
+
+<image src='/images/worth.png' mode="widthFix" class='worth'></image>
+</view>
+<view class='go' bindtap='goNow'>GO NOW</view>
+<button open-type="launchApp"  binderror="launchAppError" class='open-app' wx:if="{{flag}}">打开APP</button>
+</view>
